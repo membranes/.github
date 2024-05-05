@@ -1,8 +1,0 @@
-parameters:
-  region_name: ''
-  location_constraint: ''
-  access_control_list: 'bucket-owner-full-control'
-  internal: ''
-  path_internal_raw: 'ssn/measures/raw/'
-  path_internal_references: 'ssn/references/'
-  external: ''
