@@ -2,6 +2,6 @@ parameters:
   region_name: ''
   location_constraint: ''
   internal: ''
-  path_internal_frame: 'data/frame/'
+  path_internal_data: 'data/'
   path_internal_artefacts: 'artefacts/'
   external: ''
