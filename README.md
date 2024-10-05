@@ -63,12 +63,15 @@ For example, word level annotation scheme: <abbr title="Inside, Outside, Beginni
 
 ### Hyperparameters
 
+Note [RunConfig](https://docs.ray.io/en/latest/train/api/doc/ray.train.RunConfig.html), [CheckpointConfig](https://docs.ray.io/en/latest/train/api/doc/ray.train.CheckpointConfig.html), [TuneConfig](https://docs.ray.io/en/latest/tune/api/doc/ray.tune.TuneConfig.html), [ScalingConfig](https://docs.ray.io/en/latest/train/api/doc/ray.train.ScalingConfig.html) $\in$ [ray.tune.run](https://docs.ray.io/en/latest/tune/api/doc/ray.tune.run.html).
+
 * Default Search Algorithm: [BasicVariantGenerator](https://docs.ray.io/en/latest/tune/api/suggestion.html#random-search-and-grid-search-tune-search-basic-variant-basicvariantgenerator)
 * Default Scheduler: [FIFOScheduler](https://docs.ray.io/en/latest/tune/api/schedulers.html#fifoscheduler-default-scheduler)
 * [trainer_utils](https://github.com/huggingface/transformers/blob/main/src/transformers/trainer_utils.py)
 * [default_compute_objective](https://github.com/huggingface/transformers/blob/main/src/transformers/trainer_utils.py#L267)
 * [BestRun](https://github.com/huggingface/transformers/blob/main/src/transformers/trainer_utils.py#L245)
 * [An example of next steps](https://christianjmills.com/posts/transformers-book-notes/chapter-8/index.html)
+* huggingface.co [hyperparameter_search(...)](https://huggingface.co/docs/transformers/hpo_train)
 
 <br>
 
@@ -136,6 +139,7 @@ The formulae in focus are
 * [Tensors](https://pytorch.org/docs/stable/tensors.html)
 * For tensors that have a single value: [torch.Tensor.item()](https://pytorch.org/docs/stable/generated/torch.Tensor.item.html#torch.Tensor.item)
 * Optimisation: [torch.optim](https://pytorch.org/docs/stable/optim.html#module-torch.optim)
+* [PretrainedConfig](https://huggingface.co/docs/transformers/v4.44.2/en/main_classes/configuration#transformers.PretrainedConfig)
 
 <br>
 <br>
@@ -177,6 +181,7 @@ The formulae in focus are
 * [END-TO-END NAMED ENTITY RECOGNITION AND RELATION EXTRACTION USING PRE-TRAINED LANGUAGE MODELS](https://arxiv.org/pdf/1912.13415)
 * [Knowledge graph extension with a pre-trained language model via unified learning method](https://dl.acm.org/doi/10.1016/j.knosys.2022.110245)
 * [Graph Transformer Networks](https://arxiv.org/abs/1911.06455)
+* [DistilBertForTokenClassification](https://huggingface.co/docs/transformers/model_doc/distilbert#transformers.DistilBertForTokenClassification)
 
 <br>
 
