@@ -4,6 +4,18 @@
 
 <br>
 
+* [Data](#data)
+  * [Sources](#sources)
+  * [Annotating](#annotating)
+  * [Extracting text from documents](#extracting-text-from-documents)
+* [Model Development](#model-development)
+  * [Hyperparameters](#hyperparameters)
+  * [TensorBoard](#tensorboard)
+  * [Computation Metrics](#computation-metrics-ray-prometheus-grafana)
+  * [File formats of developed models](#file-formats-of-developed-models)
+  * [Steps & Epochs](#steps--epochs)
+  * [Classes of interest](#classes-of-interest)
+
 <br>
 
 ## Data
@@ -90,9 +102,9 @@ The computation metrics will be accessible via
 
 <br>
 
-### File formats of developed models[^gpt]
+### File formats of developed models
 
-* GGUF: GPT-Generated Unified Format
+* GGUF: GPT-Generated Unified Format[^gpt]
 * GGML: GPT-Generated Model Language
 * [What is GGUF and GGML?](https://medium.com/@phillipgimmi/what-is-gguf-and-ggml-e364834d241c)
 * [About GGUF](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md)
