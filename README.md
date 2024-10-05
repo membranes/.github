@@ -225,3 +225,4 @@ The formulae in focus are
 [^nerd]: A [Few-shot NERD (Named Entity Recognition Dataset)](https://aclanthology.org/2021.acl-long.248/)
 [^gpt]: GPT: Generative Pre-trained Transformer
 [^hyper]: Using `CheckpointConfig.num_to_keep <= 2` with <abbr title="Population Based Training">PBT</abbr> can lead to restoration problems when checkpoints are deleted too early, too early for other trials to exploit them. If this happens, increase the value of `num_to_keep`.
+[^tracking]: [Ray, Grafana, Prometheus](https://docs.ray.io/en/latest/cluster/configure-manage-dashboard.html#observability-visualization-setup)
