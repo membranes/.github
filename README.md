@@ -1,8 +1,55 @@
 <br>
 
+# Notes
+
+<br>
+
+<br>
+
+## Data
+
+### Sources
+
+[W-NUT 2017 (W-NUT 2017 Emerging and Rare entity recognition)](https://paperswithcode.com/dataset/wnut-2017-emerging-and-rare-entity)[^w-nut]
+* [Token Classification & W-NUT 2017](https://huggingface.co/docs/transformers/tasks/token_classification)
+* [get W-NUT 2017](https://huggingface.co/datasets/leondz/wnut_17)
+
+[Few-NERD](https://paperswithcode.com/dataset/few-nerd)[^nerd]
+* [get Few-NERD](https://huggingface.co/datasets/DFKI-SLT/few-nerd?library=datasets)
+
+
+<br>
+
+### Annotating
+
+For example, word level annotation scheme: <abbr title="Inside, Outside, Beginning">IOB</abbr> Tagging.
+
+* [Annotation Tools](https://www.labellerr.com/blog/7-best-text-annotation-labeling-tools-in-2024/)
+* [Doccano](https://microsoft.github.io/nlp-recipes/examples/annotation/Doccano.html)
+  * [More](https://doccano.github.io/doccano/)
+  * [doccano](https://github.com/doccano/doccano)
+* [NER (Named Entity Recognition) Annotator](https://github.com/tecoholic/ner-annotator)
+* [Acharya for NER (Named Entity Recognition)](https://acharya.astutic.com/docs/intro)
+* [gradio & NER (Named Entity Recognition)](https://www.gradio.app/guides/named-entity-recognition)
+* [tagtog](https://docs.tagtog.com)
+
+<br>
+
+### Extracting text from documents
+
+* [pypdf](https://pypdf.readthedocs.io/en/stable/user/extract-text.html), [pip](https://pypi.org/project/pypdf/)
+  * [example](https://www.geeksforgeeks.org/extract-text-from-pdf-file-using-python/)
+* [PyMuPDF](https://pymupdf.readthedocs.io/en/latest/), [pip](https://pypi.org/project/PyMuPDF/)
+  * [example](https://www.geeksforgeeks.org/extract-text-from-pdf-file-using-python/)
+
+
+<br>
+<br>
+
 ## Model Development
 
-**Hyperparameter Search**
+### Hyperparameters
+
 * Default Search Algorithm: [BasicVariantGenerator](https://docs.ray.io/en/latest/tune/api/suggestion.html#random-search-and-grid-search-tune-search-basic-variant-basicvariantgenerator)
 * Default Scheduler: [FIFOScheduler](https://docs.ray.io/en/latest/tune/api/schedulers.html#fifoscheduler-default-scheduler)
 * [trainer_utils](https://github.com/huggingface/transformers/blob/main/src/transformers/trainer_utils.py)
@@ -12,23 +59,14 @@
 
 <br>
 
-### Data
-
-[W-NUT 2017 (W-NUT 2017 Emerging and Rare entity recognition)](https://paperswithcode.com/dataset/wnut-2017-emerging-and-rare-entity)[^w-nut]
-* [Token Classification & W-NUT 2017](https://huggingface.co/docs/transformers/tasks/token_classification)
-* [get W-NUT 2017](https://huggingface.co/datasets/leondz/wnut_17)
-
-[Few-NERD](https://paperswithcode.com/dataset/few-nerd)[^nerd]
-* [get Few-NERD](https://huggingface.co/datasets/DFKI-SLT/few-nerd?library=datasets)
-
-<br>
-
-### Optimisation, etc.
+### TensorBoard
 
 The progress of a model training exercise is observable via TensorBoard
 
 ```shell
-tensorboard --logdir /tmp/ray/session_{datetime}_{host.code}/artifacts/{datetime}/tuning/driver_artifacts --bind_all
+tensorboard --logdir 
+    /tmp/ray/session_{datetime}_{host.code}/artifacts/{datetime}/tuning/driver_artifacts 
+        --bind_all
 ```
 
 Subsequently, a link of the form `http://...:6007/` or `http://...:6006/` is printed.  Access the underlying pages via a browser.  It might be necessary to switch to `http://localhost:6007/` or `http://localhost:6006/`. [^hyper]
@@ -36,7 +74,7 @@ Subsequently, a link of the form `http://...:6007/` or `http://...:6006/` is pri
 
 <br>
 
-### Computation Metrics
+### Computation Metrics: Ray, Prometheus, Grafana
 
 Via [Ray Dashboard](https://docs.ray.io/en/latest/ray-observability/getting-started.html), aided by Prometheus & Grafana[^tracking]; the set-up for the latter pair is upcoming.  Ensure [usage statistics sharing/collection is disabled](https://docs.ray.io/en/latest/cluster/usage-stats.html).  Options
 
@@ -52,44 +90,7 @@ The computation metrics will be accessible via
 
 <br>
 
-### Steps & Epochs
-
-The formulae in focus are
-
-> * max_steps_per_epoch = self.__source['train'].shape[0] // (variable.TRAIN_BATCH_SIZE * variable.N_GPU)
-> * max_steps = max_steps_per_epoch * self.__n_epochs
-
-
-<br>
-
-
-### Notes
-
-#### Annotating
-
-For example, word level annotation scheme: <abbr title="Inside, Outside, Beginning">IOB</abbr> Tagging.
-
-* [Annotation Tools](https://www.labellerr.com/blog/7-best-text-annotation-labeling-tools-in-2024/)
-* [Doccano](https://microsoft.github.io/nlp-recipes/examples/annotation/Doccano.html)
-  * [More](https://doccano.github.io/doccano/)
-  * [doccano](https://github.com/doccano/doccano)
-* [NER (Named Entity Recognition) Annotator](https://github.com/tecoholic/ner-annotator)
-* [Acharya for NER (Named Entity Recognition)](https://acharya.astutic.com/docs/intro)
-* [gradio & NER (Named Entity Recognition)](https://www.gradio.app/guides/named-entity-recognition)
-* [tagtog](https://docs.tagtog.com)
-
-<br>
-
-#### Extracting text from documents
-
-* [pypdf](https://pypdf.readthedocs.io/en/stable/user/extract-text.html), [pip](https://pypi.org/project/pypdf/)
-  * [example](https://www.geeksforgeeks.org/extract-text-from-pdf-file-using-python/)
-* [PyMuPDF](https://pymupdf.readthedocs.io/en/latest/), [pip](https://pypi.org/project/PyMuPDF/)
-  * [example](https://www.geeksforgeeks.org/extract-text-from-pdf-file-using-python/)
-
-<br>
-
-#### File formats of developed models[^gpt]
+### File formats of developed models[^gpt]
 
 * GGUF: GPT-Generated Unified Format
 * GGML: GPT-Generated Model Language
@@ -101,7 +102,16 @@ For example, word level annotation scheme: <abbr title="Inside, Outside, Beginni
 
 <br>
 
-#### Classes of interest
+### Steps & Epochs
+
+The formulae in focus are
+
+> * max_steps_per_epoch = self.__source['train'].shape[0] // (variable.TRAIN_BATCH_SIZE * variable.N_GPU)
+> * max_steps = max_steps_per_epoch * self.__n_epochs
+
+<br>
+
+### Classes of interest
 
 * [transformers](https://huggingface.co/docs/transformers/index)
 * [transformers.PreTrainedTokenizer](https://huggingface.co/docs/transformers/v4.41.3/en/main_classes/tokenizer#transformers.PreTrainedTokenizer.__call__)
@@ -135,7 +145,6 @@ For example, word level annotation scheme: <abbr title="Inside, Outside, Beginni
 
 * [Minimisation Algorithms](https://era.ed.ac.uk/handle/1842/4109)
 * [A simple illustration of likelihood functions in relation to based transformer models](https://etc.cuit.columbia.edu/news/basics-language-modeling-transformers-gpt)
-* [Displaying Mathematics Formulae](https://en.wikipedia.org/wiki/Help:Displaying_a_formula)
 * [Pattern Recognition & Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
 * [Deep Learning](https://www.bishopbook.com)
 * [Knowledge graph extension with a pre-trained language model via unified learning method](https://dl.acm.org/doi/10.1016/j.knosys.2022.110245)
@@ -184,6 +193,8 @@ For example, word level annotation scheme: <abbr title="Inside, Outside, Beginni
 * [Analyzing Tune Experiment Results](https://docs.ray.io/en/latest/tune/examples/tune_analyze_results.html)
 * [Get Started with Distributed Training using Hugging Face Transformers](https://docs.ray.io/en/latest/train/getting-started-transformers.html)
 * [Visualizing Population Based Training (PBT) Hyperparameter Optimization](https://docs.ray.io/en/latest/tune/examples/pbt_visualization/pbt_visualization.html)
+
+* [Displaying Mathematics Formulae](https://en.wikipedia.org/wiki/Help:Displaying_a_formula)
 
 
 <br>
