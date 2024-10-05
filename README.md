@@ -16,6 +16,7 @@
   * [Steps & Epochs](#steps--epochs)
   * [Classes of interest](#classes-of-interest)
 
+
 <br>
 
 ## Data
@@ -159,8 +160,6 @@ The formulae in focus are
 * [A simple illustration of likelihood functions in relation to based transformer models](https://etc.cuit.columbia.edu/news/basics-language-modeling-transformers-gpt)
 * [Pattern Recognition & Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
 * [Deep Learning](https://www.bishopbook.com)
-* [Knowledge graph extension with a pre-trained language model via unified learning method](https://dl.acm.org/doi/10.1016/j.knosys.2022.110245)
-* [Graph Transformer Networks](https://arxiv.org/abs/1911.06455)
 
 <br>
 
@@ -176,6 +175,8 @@ The formulae in focus are
 * [New LLM Pre-training and Post-training Paradigms](https://magazine.sebastianraschka.com/p/new-llm-pre-training-and-post-training)
 * [A survey on recent advances in Named Entity Recognition](https://arxiv.org/html/2401.10825v1)
 * [END-TO-END NAMED ENTITY RECOGNITION AND RELATION EXTRACTION USING PRE-TRAINED LANGUAGE MODELS](https://arxiv.org/pdf/1912.13415)
+* [Knowledge graph extension with a pre-trained language model via unified learning method](https://dl.acm.org/doi/10.1016/j.knosys.2022.110245)
+* [Graph Transformer Networks](https://arxiv.org/abs/1911.06455)
 
 <br>
 
