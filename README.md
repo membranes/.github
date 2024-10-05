@@ -198,7 +198,6 @@ The formulae in focus are
 * [Fine-tune a Hugging Face Transformers Model](https://docs.ray.io/en/latest/train/examples/transformers/huggingface_text_classification.html)
 * [Tune Trial Schedulers (tune.schedulers)](https://docs.ray.io/en/latest/tune/api/schedulers.html)
 * [Tune Search Algorithms (tune.search)](https://docs.ray.io/en/latest/tune/api/suggestion.html)
-
 * [.hyperparameter_search(compute_objective=...)](https://www.sbert.net/examples/training/hpo/README.html#compute-objective)
   * And much more.
   * [class](https://huggingface.co/docs/transformers/main_classes/trainer#transformers.Trainer.hyperparameter_search)
@@ -206,7 +205,6 @@ The formulae in focus are
 * [Analyzing Tune Experiment Results](https://docs.ray.io/en/latest/tune/examples/tune_analyze_results.html)
 * [Get Started with Distributed Training using Hugging Face Transformers](https://docs.ray.io/en/latest/train/getting-started-transformers.html)
 * [Visualizing Population Based Training (PBT) Hyperparameter Optimization](https://docs.ray.io/en/latest/tune/examples/pbt_visualization/pbt_visualization.html)
-
 * [Displaying Mathematics Formulae](https://en.wikipedia.org/wiki/Help:Displaying_a_formula)
 
 
