@@ -20,7 +20,7 @@ Objective
 > 
 > **false negative rate cost** = *fnr* $\times N\_{\_{c}} \times weight_{_{c}}$
 
-Herein, *fnr* is the requisite false negative rate [maximum] limit, $N\_{\_{c}}$ will be the maximum number of errors viv-&agrave;-vis the text class, and $weight_{_{c}}$ is the cost of a text class. The text class is organisation dependent because each will have its own taxonomy.  For example, it might decide to mask text that fall into the groups
+Herein, *fnr* is the requisite false negative rate [maximum] limit, $N\_{\_{c}}$ will be the maximum number of errors viv-&agrave;-vis the text class, and $weight_{_{c}}$ (currency) is the cost of a text class. The text class is organisation dependent because each will have its own taxonomy.  For example, it might decide to mask text that fall into the groups
 
 * organisation
 * full name
