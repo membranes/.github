@@ -1,7 +1,7 @@
 <br>
 
 > [!IMPORTANT]
-> Incomplete notes.
+> Incomplete details.
 
 <br>
 
