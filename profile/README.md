@@ -1,7 +1,7 @@
 <br>
 
-> [!NOTE]
-> Contiunuously Updated
+> [!IMPORTANT]
+> Incomplete notes.
 
 <br>
 
