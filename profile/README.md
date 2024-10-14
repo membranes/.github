@@ -1,9 +1,11 @@
 <br>
 
 > [!IMPORTANT]
-> Incomplete details.
+> Please, be patient, the notes are in progress.
 
 <br>
+
+<details><summary><b>Notes</b></summary>
 
 ### Expectations
 
@@ -40,6 +42,10 @@ During the first three years, an organisation might decide that the weight of pu
 ### Set Up
 
 * An Amazon ECR (Elastic Container Registry) Repository
+
+</details>
+
+
 
 <br>
 <br>
