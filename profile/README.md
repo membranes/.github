@@ -1,26 +1,30 @@
+# Hello
+
+Parent: [The Artificial Intelligence Unit](https://github.com/theartificialintelligenceunit)
+
+<br>
 <br>
 
-> [!NOTE]
-> Notes upcoming.
-
-<br>
-
-<details><summary><b>Thus far</b></summary>
-
-```mermaid
-stateDiagram-v2
-  direction LR
-
-  id01: configurations
+<details><summary><b>Jots</b></summary>
   
-    
-  id01:::feeds
-  
+<h3>BACKEND</h3>
+Thus far:
+<ul>
+  <li>configurations: Records data & modelling configurations.</li>
+  <li>iac: Infrastructure as code scripts.</li>
+</ul>
 
-  classDef feeds fill:orange,stroke-width:0,font-size:x-small,opacity:0.85;
-  classDef steps fill:#000000,color:white,font-style:italic,stroke-width:0,font-size:x-small,opacity:1;
-```
-
+<h3>STATE MODULES</h3>
+Will include:
+<ul>
+  <li><b>raw</b><br>Raw data acquisition module</li>
+  <li><b>structures</b><br>Prepares the data for modelling</li>
+  <li><b>text</b><br>The modelling module</li>
+  <li><b>numerics</b><br>Determines the best of the best models, and calculates a variety of error and financial metrics</li>
+  <li><b>interact</b><br>For interacting with the best model</li>
+  <li><b>restructuring</b><br>This will structure the captured interaction data in aid of re-training</li>
+  <li><b>graphs</b><br>Hosts the upcoming model details pages</li>
+</ul>
 </details>
 
 
