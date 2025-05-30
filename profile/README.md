@@ -2,6 +2,16 @@
 
 * [The Artificial Intelligence Unit](https://github.com/theartificialintelligenceunit)
 
+
+<br>
+
+
+<details><summary><b>Notes</b></summary>
+  <br>
+  <ul><li><a href="https://d22j2jhm9iagpk.cloudfront.net/index.html">Token Classification</a></li></ul>
+</details>
+
+
 <br>
 <br>
 
