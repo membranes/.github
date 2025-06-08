@@ -14,7 +14,7 @@
 
 
 
-## BACKGROUND
+## Background
 
 Organisations identify or detect words/strings of interest within documents or data blobs for a variety of purposes, e.g., knowledge graph development, text redaction, criminal investigations, etc.  Organisations may opt for manual word detection if off-the-shelf solutions cannot address their needs.  For example, most redaction software solutions focus on detecting and redacting words/strings of a narrow set of categories, and it is rarely possible to adapt the solution to the detection of words/strings of bespoke categories.
     <br><br>  
@@ -26,7 +26,7 @@ Organisations identify or detect words/strings of interest within documents or d
 <br>
 <br>
 
-## CONCEPT
+## Concept
 
 For a specific token classification dependent problem, an artificial intelligence engineer can
 <ul>
