@@ -4,14 +4,7 @@
 
 <br>
 
-<details><summary><b>APP</b></summary>
-  <br>
-  <ul><li><a href="https://theartificialintelligenceunit.github.io/intelligence/html/c-dispatches-app.html">Token Classification</a></li></ul>
-</details>
-
-<br>
-<br>
-
+* <a href="https://theartificialintelligenceunit.github.io/intelligence/html/c-dispatches-app.html">APP</a>
 * [background](#background)
 * [concept](#concept)
 
