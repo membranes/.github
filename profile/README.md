@@ -49,9 +49,8 @@ wherein $tn$, $tp$, $fn$, and $fp$ denote true negative, true positive, false ne
 <b>Note</b>, the best model of a set must undergo (a) mathematical evaluation, and (b) business/cost evaluation.  The latter is critical because an acceptable mathematical metric, e.g., $precision > 0.9$ does not necessarily lead to excellent business/cost metrics.<br><br>
 
 <br>
-<br>
 
-## Definitions
+### Definitions
 
 * false positive (fp): ... an incorrect model decision whereby the model's decision is true/present, instead of false/absent.  Example: the model indicates that there are inflammable items in the suitcase, but there aren't.
 * false negative (fn): ... an incorrect model decision whereby the model's decision is false/absent, instead of true/present.  Example: A model indicates that there are no inflammable items in the suitcase, but there are.
