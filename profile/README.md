@@ -57,6 +57,9 @@ wherein $tn$, $tp$, $fn$, and $fp$ denote true negative, true positive, false ne
 * true positive (tp): ... the model's decision is correct; true/present.  Example: A model correctly indicates the **presence of** a disease.
 * true negative (tn): ... the model's decision is correct; false/absent.  Example: A model correctly indicates the **absence of** a disease.
 * false negative rate (fnr) $\frac{fn}{tp + fn}$
+* true positive rate (tpr) $\frac{tp}{tp + fn}$
+* false positive rate (fpr) $\frac{fp}{fp + tn}$
+* true negative rate (tnr) $\frac{tn}{fp + tn}$
 
 
 <br>
