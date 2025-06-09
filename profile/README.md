@@ -6,7 +6,7 @@
 
 <details><summary><b>APP</b></summary>
   <br>
-  <ul><li><a href="https://d22j2jhm9iagpk.cloudfront.net/index.html">Token Classification</a></li></ul>
+  <ul><li><a href="https://theartificialintelligenceunit.github.io/intelligence/html/c-dispatches-app.html">Token Classification</a></li></ul>
 </details>
 
 <br>
@@ -17,8 +17,6 @@
 
 <br>
 <br>
-
-
 
 ## Background
 
