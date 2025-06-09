@@ -82,7 +82,7 @@ An organisation manually classifies trauma incidents for all the major trauma ce
 
 <br>
 
-### DEPLOYMENT GOAL
+#### DEPLOYMENT GOAL
 
 A potential machine learning dependent project without a deployment goal is directionless, do not proceed.  A plausible deployment goal is<br><br><br><br><img src='deployment-goal.png' alt='input' width='596px'/>
 
