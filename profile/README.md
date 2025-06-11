@@ -9,20 +9,20 @@ This hub host's the repositories of the [token classification pages](https://the
 
 ### Repositories
 
-| &nbsp;                                                                           | purpose                      |
-|:---------------------------------------------------------------------------------|:-----------------------------|
-| <a href="https://github.com/membranes/raw" target="_blank">raw</a>               | Retrieves the raw data.      |
-| <a href="https://github.com/membranes/structures" target="_blank">structures</a> | Prepares data for modelling. |
-| <a href="https://github.com/membranes/text" target="_blank">text</a>             | The modelling package.       |
-| <a href="https://github.com/membranes/numerics" target="_blank">numerics</a>     | Evaluates modelling results. |
+| &nbsp;                                                                                 | purpose                      |
+|:---------------------------------------------------------------------------------------|:-----------------------------|
+| <a href="https://github.com/membranes/abstract" target="_blank">abstract</a>           | Concept, etc.                |
+| &nbsp;                                                                                 | &nbsp;                       |
+| <a href="https://github.com/membranes/raw" target="_blank">raw</a>                     | Retrieves the raw data.      |
+| <a href="https://github.com/membranes/structures" target="_blank">structures</a>       | Prepares data for modelling. |
+| <a href="https://github.com/membranes/text" target="_blank">text</a>                   | The modelling package.       |
+| <a href="https://github.com/membranes/numerics" target="_blank">numerics</a>           | Evaluates modelling results. |
+| &nbsp;                                                                                 | &nbsp;                       |
+| <a href="https://github.com/membranes/bare" target="_blank">bare</a>                   | Interface                    |
+| <a href="https://github.com/membranes/restructuring" target="_blank">restructuring</a> | For restructuring ...        |
 
 
-
-| &nbsp;                                                                                 | purpose                                                                                           |
-|:---------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------|
-| <a href="https://github.com/membranes/bare" target="_blank">bare</a>                   | Interface                                                                                         |
-| <a href="https://github.com/membranes/restructuring" target="_blank">restructuring</a> | For restructuring ... in preparation for human inspection, and as a model re-training data source |
-
+in preparation for human inspection, and as a model re-training data source
 
 <br>
 
