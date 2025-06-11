@@ -1,15 +1,39 @@
-
-
 [The Artificial Intelligence Unit](https://github.com/theartificialintelligenceunit)
 
 <br>
 
-<a href="https://theartificialintelligenceunit.github.io/intelligence/html/c-dispatches-app.html">APP</a>
+### About
+This hub host's the repositories of the [token classification pages](https://theartificialintelligenceunit.github.io/intelligence/html/c-dispatches-introduction.html).
+
+<br>
+
+### Repositories
+
+| &nbsp;                                                                           | purpose                      |
+|:---------------------------------------------------------------------------------|:-----------------------------|
+| <a href="https://github.com/membranes/raw" target="_blank">raw</a>               | Retrieves the raw data.      |
+| <a href="https://github.com/membranes/structures" target="_blank">structures</a> | Prepares data for modelling. |
+| <a href="https://github.com/membranes/text" target="_blank">text</a>             | The modelling package.       |
+| <a href="https://github.com/membranes/numerics" target="_blank">numerics</a>     | Evaluates modelling results. |
 
 
 
+| &nbsp;                                                                                 | purpose                                                                                           |
+|:---------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------|
+| <a href="https://github.com/membranes/bare" target="_blank">bare</a>                   | Interface                                                                                         |
+| <a href="https://github.com/membranes/restructuring" target="_blank">restructuring</a> | For restructuring ... in preparation for human inspection, and as a model re-training data source |
+
+
 <br>
+
+### Model & Data
+
 <br>
+
+Brief
+
+* [Model Description](https://theartificialintelligenceunit.github.io/intelligence/html/c-dispatches-model-desc.html)
+* [Data Description](https://theartificialintelligenceunit.github.io/intelligence/html/c-dispatches-data-desc.html)
 
 <br>
 <br>
@@ -20,3 +44,5 @@
 <br>
 <br>
 
+<br>
+<br>
