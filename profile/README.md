@@ -9,17 +9,17 @@ This hub host's the repositories of the [token classification pages](https://the
 
 ### Repositories
 
-| &nbsp;                                                                                 | purpose                                                                                                                                                        |
-|:---------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a href="https://github.com/membranes/abstract" target="_blank">abstract</a>           | Background, concept, etc.                                                                                                                                      |
-| &nbsp;                                                                                 | &nbsp;                                                                                                                                                         |
-| <a href="https://github.com/membranes/raw" target="_blank">raw</a>                     | Retrieves the raw data.                                                                                                                                        |
-| <a href="https://github.com/membranes/structures" target="_blank">structures</a>       | Prepares data for modelling.                                                                                                                                   |
-| <a href="https://github.com/membranes/text" target="_blank">text</a>                   | The modelling package.                                                                                                                                         |
-| <a href="https://github.com/membranes/numerics" target="_blank">numerics</a>           | Evaluates modelling results.                                                                                                                                   |
-| &nbsp;                                                                                 | &nbsp;                                                                                                                                                         |
-| <a href="https://github.com/membranes/bare" target="_blank">bare</a>                   | An interface for interacting with the model. This version includes a _text & entity classifications_ transfer feature; for transferring to a cloud repository. |
-| <a href="https://github.com/membranes/restructuring" target="_blank">restructuring</a> | For restructuring the latest data captures in preparation for (a) human inspection, and (b) usage as a model re-training data source.                          |
+| &nbsp;                                                                                 | purpose                                                                                                                                                      |
+|:---------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="https://github.com/membranes/abstract" target="_blank">abstract</a>           | Background, concept, etc.                                                                                                                                    |
+| &nbsp;                                                                                 | &nbsp;                                                                                                                                                       |
+| <a href="https://github.com/membranes/raw" target="_blank">raw</a>                     | Retrieves the raw data.                                                                                                                                      |
+| <a href="https://github.com/membranes/structures" target="_blank">structures</a>       | Prepares data for modelling.                                                                                                                                 |
+| <a href="https://github.com/membranes/text" target="_blank">text</a>                   | The modelling package.                                                                                                                                       |
+| <a href="https://github.com/membranes/numerics" target="_blank">numerics</a>           | Evaluates modelling results.                                                                                                                                 |
+| &nbsp;                                                                                 | &nbsp;                                                                                                                                                       |
+| <a href="https://github.com/membranes/bare" target="_blank">bare</a>                   | An interface for interacting with a model. This version includes a _text & entity classifications_ transfer feature; for transferring to a cloud repository. |
+| <a href="https://github.com/membranes/restructuring" target="_blank">restructuring</a> | For restructuring the latest data captures in preparation for (a) human inspection, and (b) usage as a model re-training data source.                        |
 
 
 
