@@ -20,15 +20,13 @@ This hub host's the repositories of the [token classification pages](https://the
 | &nbsp;                                                                                 | &nbsp;                                                                                                                                                       |
 | <a href="https://github.com/membranes/bare" target="_blank">bare</a>                   | An interface for interacting with a model. This version includes a _text & entity classifications_ transfer feature; for transferring to a cloud repository. |
 | <a href="https://github.com/membranes/restructuring" target="_blank">restructuring</a> | For restructuring the latest data captures in preparation for (a) human inspection, and (b) usage as a model re-training data source.                        |
-
-
+| &nbsp;                                                                                 | &nbsp;                                                                                                                                                       |
+| <a href="https://github.com/membranes/iac" target="_blank">iac</a>                     | Limited infrastructure as code notes; intentionally opaque.                                                                                                  |
 
 
 <br>
 
 ### Model & Data
-
-<br>
 
 Brief
 
