@@ -13,7 +13,7 @@ The diagram outlines the functions of the repositories; and their dependencies.
 
 <br>
 
-<img src="sketch.png" alt="Schema"/>
+<img src="sketch.png" alt="Schema" width="544"/>
 
 <br>
 <br>
