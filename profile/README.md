@@ -33,7 +33,7 @@ Brief
 * [Model Description](https://theartificialintelligenceunit.github.io/intelligence/html/c-dispatches-model-desc.html)
 * [Data Description](https://theartificialintelligenceunit.github.io/intelligence/html/c-dispatches-data-desc.html)
 
-<iframe width="560" height="315" src="https://nbviewer.org/github/membranes/.github/blob/master/profile/sketch.html" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
+<img src="sketch.png" alt="Schema"/>
 
 <br>
 <br>
