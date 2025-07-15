@@ -1,17 +1,17 @@
-<mxfile host="Electron" modified="2025-07-15T21:43:46.841Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="Da7dtz3rGG4-eksA-Bay" version="22.1.2" type="device">
+<mxfile host="Electron" modified="2025-07-15T21:50:19.711Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="Qc919j4lisvT7TGib8Ji" version="22.1.2" type="device">
   <diagram name="sketch" id="NKct0yvRwDZPGS5-LY1j">
-    <mxGraphModel dx="1434" dy="1004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1098" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gYTZMiJ3hf2rMKiT2wGT-1" value="raw" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;strokeColor=none;opacity=60;fontFamily=Asap;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAsap;fillColor=#7F00FF;fontSize=13;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="142" y="300" width="101" height="34" as="geometry" />
+          <mxGeometry x="142" y="272" width="101" height="34" as="geometry" />
         </mxCell>
         <mxCell id="gYTZMiJ3hf2rMKiT2wGT-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7F00FF;opacity=70;" edge="1" parent="1" source="gYTZMiJ3hf2rMKiT2wGT-2" target="gYTZMiJ3hf2rMKiT2wGT-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gYTZMiJ3hf2rMKiT2wGT-2" value="structures" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;strokeColor=none;opacity=60;fontFamily=Asap;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAsap;fillColor=#7F00FF;fontSize=13;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="313" y="300" width="139" height="34" as="geometry" />
+          <mxGeometry x="313" y="272" width="139" height="34" as="geometry" />
         </mxCell>
         <mxCell id="gYTZMiJ3hf2rMKiT2wGT-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#7F00FF;opacity=70;" edge="1" parent="1" source="gYTZMiJ3hf2rMKiT2wGT-3" target="gYTZMiJ3hf2rMKiT2wGT-18">
           <mxGeometry relative="1" as="geometry" />
@@ -25,7 +25,7 @@
         <mxCell id="gYTZMiJ3hf2rMKiT2wGT-7" value="" style="curved=1;startArrow=none;;exitX=1;exitY=0.5;rounded=0;strokeColor=#7F00FF;opacity=70;fontFamily=Asap;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAsap;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gYTZMiJ3hf2rMKiT2wGT-1" target="gYTZMiJ3hf2rMKiT2wGT-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-            <mxPoint x="290" y="317" as="targetPoint" />
+            <mxPoint x="290" y="289" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gYTZMiJ3hf2rMKiT2wGT-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gYTZMiJ3hf2rMKiT2wGT-18">
@@ -67,6 +67,15 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="601" y="400" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gYTZMiJ3hf2rMKiT2wGT-43" value="the&amp;nbsp;&lt;font color=&quot;#ff8000&quot;&gt;raw&lt;/font&gt; repository package retrieves the raw data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Caveat Brush;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat%2BBrush;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="307.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gYTZMiJ3hf2rMKiT2wGT-44" value="the&amp;nbsp;&lt;font color=&quot;#ff8000&quot;&gt;structures&lt;/font&gt; repository package prepares the raw data for modelling" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Caveat Brush;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat%2BBrush;rotation=-30;" vertex="1" parent="1">
+          <mxGeometry x="294.8" y="192" width="129.7" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gYTZMiJ3hf2rMKiT2wGT-45" value="the&amp;nbsp;&lt;font color=&quot;#ff8000&quot;&gt;text&lt;/font&gt; repository package builds models per pre-trained architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Caveat Brush;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat%2BBrush;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="189.1" y="388" width="123.9" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
