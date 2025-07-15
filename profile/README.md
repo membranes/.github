@@ -23,12 +23,14 @@ The `text` package will be re-written during the last quarter of 2025.  The
 
 <br>
 
+Additionally
+
 <table style="width: 85%;">
     <colgroup>
         <col span="1" style="width: 26.5%;">
         <col span="1" style="width: 63.5%;">
     </colgroup>
-    <thead><tr style="text-align: left"><th>Object</th><th>Note</th></tr></thead>
+    <thead><tr style="text-align: left"><th>repository</th><th>comment</th></tr></thead>
         <tr><td><a href="https://github.com/membranes/abstracts" target="_blank">abstracts</a></td><td>Background, concept, etc.</td></tr>
         <tr><td><a href="https://github.com/membranes/iac" target="_blank">iac</a></td><td>Limited infrastructure as code notes; intentionally opaque. </td></tr>
 </table>
