@@ -9,20 +9,24 @@ This hub host's the repositories of the [token classification pages](https://the
 
 ### Repositories
 
-| &nbsp;                                                                                 | purpose                                                                                                                                                      |
-|:---------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a href="https://github.com/membranes/abstracts" target="_blank">abstracts</a>         | Background, concept, etc.                                                                                                                                    |
-| &nbsp;                                                                                 | &nbsp;                                                                                                                                                       |
-| <a href="https://github.com/membranes/raw" target="_blank">raw</a>                     | Retrieves the raw data.                                                                                                                                      |
-| <a href="https://github.com/membranes/structures" target="_blank">structures</a>       | Prepares data for modelling.                                                                                                                                 |
-| <a href="https://github.com/membranes/text" target="_blank">text</a>                   | The modelling package.  This package will be re-designed/re-written during the summer of 2025.                                                               |
-| <a href="https://github.com/membranes/numerics" target="_blank">numerics</a>           | Evaluates modelling results.                                                                                                                                 |
-| &nbsp;                                                                                 | &nbsp;                                                                                                                                                       |
-| <a href="https://github.com/membranes/bare" target="_blank">bare</a>                   | An interface for interacting with a model. This version includes a _text & entity classifications_ transfer feature; for transferring to a cloud repository. |
-| <a href="https://github.com/membranes/restructuring" target="_blank">restructuring</a> | For restructuring the latest data captures in preparation for (a) human inspection, and (b) usage as a model re-training data source.                        |
-| &nbsp;                                                                                 | &nbsp;                                                                                                                                                       |
-| <a href="https://github.com/membranes/iac" target="_blank">iac</a>                     | Limited infrastructure as code notes; intentionally opaque.                                                                                                  |
+<br>
 
+<img src="sketch.png" alt="Schema"/>
+
+<br>
+
+The modelling package.  This package will be re-designed/re-written during the summer of 2025.
+<a href="https://github.com/membranes/restructuring" target="_blank">restructuring</a> For restructuring the latest data captures in preparation for (a) human inspection, and (b) usage as a model re-training data source.
+
+<table style="width: 85%;">
+    <colgroup>
+        <col span="1" style="width: 26.5%;">
+        <col span="1" style="width: 63.5%;">
+    </colgroup>
+    <thead><tr style="text-align: left"><th>Object</th><th>Note</th></tr></thead>
+        <tr><td><a href="https://github.com/membranes/abstracts" target="_blank">abstracts</a></td><td>Background, concept, etc.</td></tr>
+        <tr><td><a href="https://github.com/membranes/iac" target="_blank">iac</a></td><td>Limited infrastructure as code notes; intentionally opaque. </td></tr>
+</table>
 
 <br>
 
@@ -33,7 +37,7 @@ Brief
 * [Model Description](https://theartificialintelligenceunit.github.io/intelligence/html/c-dispatches-model-desc.html)
 * [Data Description](https://theartificialintelligenceunit.github.io/intelligence/html/c-dispatches-data-desc.html)
 
-<img src="sketch.png" alt="Schema"/>
+
 
 <br>
 <br>
