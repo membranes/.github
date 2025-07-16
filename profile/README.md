@@ -41,8 +41,8 @@ Additionally
 
 Brief
 
-* [Model Description](https://theartificialintelligenceunit.github.io/intelligence/html/c-dispatches-model-desc.html)
-* [Data Description](https://theartificialintelligenceunit.github.io/intelligence/html/c-dispatches-data-desc.html)
+* [Model Description](https://d22j2jhm9iagpk.cloudfront.net/src/c-dispatches-model-desc.html)
+* [Data Description](https://d22j2jhm9iagpk.cloudfront.net/src/c-dispatches-data-desc.html)
 
 
 
