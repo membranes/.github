@@ -1,4 +1,4 @@
-Token Classification: Dispatches [[simple open interface](https://greyhypotheses-detecting.hf.space)]
+Token Classification: Dispatches [[simple open interface]](https://greyhypotheses-detecting.hf.space)
 
 <a href="https://theartificialintelligenceunit.github.io/abstracts/" target="_blank">README</a>
 
