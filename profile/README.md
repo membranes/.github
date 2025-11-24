@@ -1,6 +1,10 @@
+Token Classification: Dispatches
+
+<a href="https://theartificialintelligenceunit.github.io/abstracts/" target="_blank">README</a>
+
 <br>
 
-This hub hosts the repositories of a token classification modelling project.  Readers may interact with the model via a  [simple open interface](https://greyhypotheses-detecting.hf.space).
+Readers may interact with the project's model via this [simple open interface](https://greyhypotheses-detecting.hf.space).
 
 <br>
 <br>
